@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Placing Grid Items!</title>
+</head>
+
+<body>
+
+  <!-- 
+1) create 30 i
+2) repeat 5 1fr
+3) .item9 width : 500
+4) remove width & add long text
+5) grid-column: span 2; 
+6) try 3 and revert
+7) grid-row: span 2;
+8) revert grid-row
+9) span 10 colums
+-->
+
+  <div class="container">
+    <div class="item item1">1</div>
+    
+  </div>
+
+  <style>
+    .container {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(5, 1fr);
+    }
+  </style>
+</body>
+
+</html>
